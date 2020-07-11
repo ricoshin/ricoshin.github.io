@@ -1,0 +1,1 @@
+# ricoshin.github.io
