@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Wuhyun Shin</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+:root{--fg:#222;--mut:#6b6b6b;--link:#1772d0;--hover:#f09228;--line:#e6e6e6}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--fg);font-family:Lato,"Apple SD Gothic Neo",sans-serif;font-size:15.5px;line-height:1.55;word-break:keep-all}
+a{color:var(--link);text-decoration:none}a:hover{color:var(--hover)}
+.w{max-width:800px;margin:0 auto;padding:28px 24px 56px}
+.lang{text-align:right;font-size:13px;color:var(--mut)}.lang b{color:var(--fg)}
+.top{display:flex;gap:44px;align-items:center;margin:16px 0 8px}.top .t{flex:1}
+h1{font-weight:400;font-size:34px;margin:0}h1 span{font-size:20px;color:#888}
+.role{color:var(--mut);margin:2px 0 16px}
+.top p{margin:0 0 10px}
+.ph{width:180px;height:180px;border-radius:50%;object-fit:cover;flex:none}
+h2{font-weight:400;font-size:21px;margin:40px 0 0}
+.co{display:flex;justify-content:space-between;gap:16px;margin-top:20px;align-items:baseline}
+.co b{font-size:16px}.d{color:var(--mut);white-space:nowrap;font-size:14px}
+.sub{color:var(--mut);font-style:italic}
+ul{margin:6px 0 0;padding-left:20px}
+li{margin:3px 0}li .y{float:right;color:var(--mut);font-size:14px;margin-left:16px}
+.lk{font-size:14px}
+.ft{color:#999;font-size:12px;margin-top:44px}
+.more{margin:18px 0 0;font-size:14.5px}
+@media (max-width:640px){.top{flex-direction:column-reverse;align-items:flex-start;gap:16px}.ph{width:130px;height:130px}.co{flex-direction:column;gap:0}li .y{float:none;display:block;margin:0}}
+</style>
+</head>
+<body>
+<div class="w">
+<div class="lang"><b>EN</b> · <a href="ko/">한국어</a></div>
+<div class="top">
+  <div class="t">
+    <h1>Wuhyun Shin</h1>
+    <p class="role">ML Engineer · <span style="font-size:14px">6+ years in industry · 5+ years of graduate research</span></p>
+    <p>I'm an ML engineer at <b>TMAP Mobility</b>, building recommendation and pricing models and the MLOps that ships them.</p><p>Previously, I was an AI researcher at <b>Kakao Brain</b> (ICLR, CVPR). Before that, I spent three years in Prof. Sung Ju Hwang's MLAI Lab (UNIST → KAIST) as research staff and then a Ph.D. student, and built robots and vision systems in the Robotics &amp; Vision Lab at Sungkyunkwan University.</p>
+    <p><a href="mailto:rico.shin@gmail.com">Email</a> / <a href="https://github.com/ricoshin">GitHub</a> / <a href="projects/">Projects</a></p>
+  </div>
+  <img class="ph" src="images/profile.jpg" alt="Wuhyun Shin">
+</div>
+<h2>Experience</h2>
+<div data-block="tmap"><div class="co"><div><b>TMAP Mobility</b> · <span class="sub">ML Engineer</span></div><span class="d">Dec 2022 – Present</span></div><ul><li><span class=y>2026 –</span><b>POI recommendation serving</b> — retrieval serving on SageMaker and Qdrant, with A/B routing</li><li><span class=y>2026 –</span><b>AI-native model operations</b> — agent skills and hooks that deploy and operate team models</li><li><span class=y>2025</span><b>Real-time pricing model</b> — modeling direction, tuning stack, CI/CD and staged A/B</li><li><span class=y>2024</span><b>RAG-based POI search</b> — PoC with OpenSearch and LLM explanations</li><li><span class=y>2022 – 2024</span><b>Team ML pipeline</b> — built from scratch with Jenkins, Argo CD, and GitOps</li></ul></div>
+<div data-block="kakao"><div class="co"><div><b>Kakao Brain</b> · <span class="sub">AI Researcher</span></div><span class="d">Jun 2020 – Sep 2022</span></div><ul><li><b>Sparse DETR</b> (ICLR 2022, co-first author) — 38% less compute with 10% of encoder tokens · <a class="lk" href="https://arxiv.org/abs/2111.14330">paper</a> · <a class="lk" href="https://github.com/kakaobrain/sparse-detr">code</a></li><li><b>SCRL</b> (CVPR 2021, co-first author) — self-supervised pre-training for detection · <a class="lk" href="https://arxiv.org/abs/2103.06122">paper</a> · <a class="lk" href="https://github.com/kakaobrain/scrl">code</a></li><li><b>Research teams</b> — multimodal learning, representation learning, AutoML</li></ul></div>
+<div data-block="lab"><div class="co"><div><b>MLAI Lab, UNIST → KAIST</b> · <span class="sub">Research Staff, then Ph.D. Student</span></div><span class="d">Mar 2017 – Apr 2020</span></div><ul><li><span class=y>2018 – 2019</span><b>Meta-learning</b> — learned <a href="https://github.com/ricoshin/learn2sample">minibatch sampler</a> and <a href="https://github.com/ricoshin/learn2optimize">optimizer</a></li><li><span class=y>2017 – 2018</span><b>Text generation</b> — GAN- and VAE-based <a href="https://github.com/ricoshin/textgen">text</a> and <a href="https://github.com/ricoshin/TextGAN">question</a> generation, with SK Telecom</li></ul></div>
+<div data-block="skku"><div class="co"><div><b>Robotics &amp; Vision Lab, Sungkyunkwan University</b> · <span class="sub">M.S. Student, Prof. Heon Hwang</span></div><span class="d">2014 – 2016</span></div><ul><li><span class=y>2016</span><b>Crop detection</b> — real-time CNN vision for harvesting robots (M.S. thesis)</li><li><span class=y>2014 – 2015</span><b>Robots</b> — solar-panel cleaning robot (3 patents), quadruped robot (B.S. thesis)</li><li><span class=y>2014 – 2015</span><b>Food grading</b> — image analysis for meat grading (Outstanding Paper Award, 2015)</li></ul></div>
+<p class="more"><a href="projects/">Details and figures for each project →</a></p>
+<h2>Education</h2>
+<div class="co"><div><b>KAIST</b> · <span class="sub">Ph.D. program in AI (withdrew) · in the same lab since 2017</span></div><span class="d">2020</span></div><div class="co"><div><b>Sungkyunkwan University</b> · <span class="sub">M.S. in Biotechnology · Robotics &amp; Vision Lab · GPA 4.5/4.5</span></div><span class="d">2014 – 2016</span></div><div class="co"><div><b>Sungkyunkwan University</b> · <span class="sub">B.S. in Bio-Mechatronic Engineering</span></div><span class="d">2014</span></div><div class="co"><div><b>Bitcamp</b> · <span class="sub">IoT &amp; Big Data program, 6 months full-time · autonomous drone project</span></div><span class="d">2016</span></div>
+<h2>Also</h2>
+<ul><li><b>Publications</b> — ICLR 2022, CVPR 2021, and five Korean journal and conference papers</li><li><b>Patents</b> — three Korean patents on a solar-panel cleaning robot</li><li><b>Teaching</b> — TA for GAN and network sparsification lectures, LG Electronics and Samsung DS–KAIST AI courses (2019)</li><li><b>Notes</b> — <a href="https://ricoshin-ml-math.gitbook.io/mathematics-for-machine-learning/">Mathematics for Machine Learning</a></li><li><a href="projects/">Full list with links →</a></li></ul>
+<p class="ft">Last updated October 2026</p>
+</div>
+</body>
+</html>
